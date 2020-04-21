@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReachabilityManager_Example' do
+  pod 'ReachabilityManager', :path => '../'
+
+  target 'ReachabilityManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
