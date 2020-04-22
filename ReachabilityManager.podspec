@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ReachabilityManager'
+  s.name             = 'DCReachabilityManager'
   s.version          = '1.0.0'
   s.summary          = 'Replacement Reachability.swift using NWPathMonitor'
 
