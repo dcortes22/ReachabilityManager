@@ -47,7 +47,7 @@
 		7EC014AB7CDFF09CDC4E9885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		987BA77E48241F90FDB79D4C /* Pods_ReachabilityManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReachabilityManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D520726B8FE994EF9796E9BF /* Pods-ReachabilityManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReachabilityManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-ReachabilityManager_Tests/Pods-ReachabilityManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DAFA876DDDEF54B7E93975F5 /* ReachabilityManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReachabilityManager.podspec; path = ../ReachabilityManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DAFA876DDDEF54B7E93975F5 /* DCReachabilityManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DCReachabilityManager.podspec; path = ../DCReachabilityManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE0384D1244FCEED00FF4229 /* SemanticColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemanticColor.swift; sourceTree = "<group>"; };
 		DE5014C4BACCA3CFAEDB1B6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DE9A5448244FB2DA00520E79 /* MockReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReachabilityManager.swift; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				DAFA876DDDEF54B7E93975F5 /* ReachabilityManager.podspec */,
+				DAFA876DDDEF54B7E93975F5 /* DCReachabilityManager.podspec */,
 				DE5014C4BACCA3CFAEDB1B6D /* README.md */,
 				7EC014AB7CDFF09CDC4E9885 /* LICENSE */,
 			);
