@@ -35,7 +35,7 @@ ReachabilityManager is available through [CocoaPods](https://cocoapods.org). To 
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ReachabilityManager'
+pod 'DCReachabilityManager'
 ```
 
 ## Example
