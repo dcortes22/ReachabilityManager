@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'ReachabilityManager/Classes/**/*'
+  s.source_files = 'ReachabilityManager/*.swift'
   
   # s.resource_bundles = {
   #   'ReachabilityManager' => ['ReachabilityManager/Assets/*.png']
