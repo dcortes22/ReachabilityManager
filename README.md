@@ -7,6 +7,9 @@
 
 ## Requirements
 
+IOS 12 or higher must be used
+
+
 ## Installation
 
 ### Manual
