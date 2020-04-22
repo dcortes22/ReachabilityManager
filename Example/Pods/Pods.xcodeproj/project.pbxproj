@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CE3BD9EA21A336FFDCF64B828F36AD5 /* ReachabilityManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E60A1EFDF88A364792EB05C610FAAC8 /* ReachabilityManager-dummy.m */; };
+		728A7C43A4A9546094EA40DD8A708DB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7D70622497554BEE478D2370A570D53B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		80A8AE05A12F1B736A9ACDBB2181B285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A4C6FC248B419DB50335CBA49CEE00D4 /* Pods-ReachabilityManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5699F372A14F72875E479E89B7AB70E /* Pods-ReachabilityManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B01AD5E4FDB2637E12341FFAE507D504 /* ReachabilityManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC002A973813FE158A4E221DE0892C8 /* ReachabilityManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3E97096BD5D466953EEB702FEC07A9E /* Pods-ReachabilityManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4FF280E7A4C7622DB7523F3E56F7B /* Pods-ReachabilityManager_Example-dummy.m */; };
+		DE9A5447244FB1AB00520E79 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A5446244FB1AB00520E79 /* ReachabilityManager.swift */; };
+		E4DC2D95975B28754E5CA30BF991BF12 /* Pods-ReachabilityManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C95B19EC38B82F4BB508B2324770A /* Pods-ReachabilityManager_Tests-dummy.m */; };
+		FF4711015B1E9397BB74AF1B175EE653 /* Pods-ReachabilityManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 158CD8B1DBE17E11F6ECE214A969FCF8 /* Pods-ReachabilityManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79FADC4E274A32FB7B7F502C95D0E419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B831F57F7DCB540A39D06E205623C6E6;
+			remoteInfo = "Pods-ReachabilityManager_Example";
+		};
+		875C63DEBB2BD01645B8D0FDA0C4C093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA110425BDFD54C80FD0C311ED94E43;
+			remoteInfo = ReachabilityManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D02727A8007E68BE76340940A091C54 /* Pods_ReachabilityManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReachabilityManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		158CD8B1DBE17E11F6ECE214A969FCF8 /* Pods-ReachabilityManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReachabilityManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2AC002A973813FE158A4E221DE0892C8 /* ReachabilityManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilityManager-umbrella.h"; sourceTree = "<group>"; };
+		2C2D15938F604DAEE7D354C18A34F7DC /* Pods-ReachabilityManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReachabilityManager_Example.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CCC5A8F2F87F0458104FE53F77D6D06 /* Pods-ReachabilityManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReachabilityManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		44612FF3374A99D93AB1FCD2615CBB3D /* ReachabilityManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilityManager-Info.plist"; sourceTree = "<group>"; };
+		4E644868417FC5220DBA89B51D06175F /* ReachabilityManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilityManager.debug.xcconfig; sourceTree = "<group>"; };
+		5117556C094183862A1C41A59AA878BC /* Pods-ReachabilityManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReachabilityManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5999CA300172EE0CA9DDB5CEA1C25F0B /* Pods-ReachabilityManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReachabilityManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E60A1EFDF88A364792EB05C610FAAC8 /* ReachabilityManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilityManager-dummy.m"; sourceTree = "<group>"; };
+		6EB4FF280E7A4C7622DB7523F3E56F7B /* Pods-ReachabilityManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReachabilityManager_Example-dummy.m"; sourceTree = "<group>"; };
+		745B9B056FEF0368E11153842A8FCE16 /* ReachabilityManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilityManager-prefix.pch"; sourceTree = "<group>"; };
+		7B7C95B19EC38B82F4BB508B2324770A /* Pods-ReachabilityManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReachabilityManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		7BC68E666476C0DD7AF350F70F49FA2B /* ReachabilityManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilityManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85066253A1F07580A371AFFC765E5E18 /* Pods-ReachabilityManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReachabilityManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		86B543AA975D172055E629C821EF3E98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8A9CB3E72576CC0352CF3A19D8E7C8D5 /* Pods_ReachabilityManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReachabilityManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC2FA9AEC6C0B4C4D07CA70B8C8A919 /* Pods-ReachabilityManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReachabilityManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		931BFB441A661D7F405F705454022E17 /* Pods-ReachabilityManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReachabilityManager_Tests.modulemap"; sourceTree = "<group>"; };
+		9BE20D0DA2935A891F28C6566930C5B5 /* ReachabilityManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ReachabilityManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADC8F61638D90C1E6C240FA4E8A93EF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B5699F372A14F72875E479E89B7AB70E /* Pods-ReachabilityManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReachabilityManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		D22A7743D8D69164B6168A65C9654B02 /* Pods-ReachabilityManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReachabilityManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D239170F6FA8C0973B609593A84EE15C /* Pods-ReachabilityManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReachabilityManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DE9A5446244FB1AB00520E79 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		DF0FFD1356FD45413BF5CAA1CB58E2F3 /* Pods-ReachabilityManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReachabilityManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF400EF88B0A1A2E5E042719ED231DEA /* ReachabilityManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilityManager.release.xcconfig; sourceTree = "<group>"; };
+		DFEE0CBA40E4975C8E293D980E02E38B /* Pods-ReachabilityManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReachabilityManager_Example-Info.plist"; sourceTree = "<group>"; };
+		E273489F560B5D64F9D7E23A821AC023 /* Pods-ReachabilityManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReachabilityManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E597CF54343F3107E920EF271F1C73BE /* ReachabilityManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilityManager.modulemap; sourceTree = "<group>"; };
+		F988DC71908E781ADF02C610CDA572B8 /* Pods-ReachabilityManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReachabilityManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A86A103C2805D40761AF4BD6C5C04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728A7C43A4A9546094EA40DD8A708DB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5162961F64C0B0CE8C66232969870FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D70622497554BEE478D2370A570D53B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EEF3216B0932152FB6B7BA459532E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A8AE05A12F1B736A9ACDBB2181B285 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F9A286097034B2755815A5574FA6F1D /* Pods-ReachabilityManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				931BFB441A661D7F405F705454022E17 /* Pods-ReachabilityManager_Tests.modulemap */,
+				5117556C094183862A1C41A59AA878BC /* Pods-ReachabilityManager_Tests-acknowledgements.markdown */,
+				E273489F560B5D64F9D7E23A821AC023 /* Pods-ReachabilityManager_Tests-acknowledgements.plist */,
+				7B7C95B19EC38B82F4BB508B2324770A /* Pods-ReachabilityManager_Tests-dummy.m */,
+				85066253A1F07580A371AFFC765E5E18 /* Pods-ReachabilityManager_Tests-Info.plist */,
+				158CD8B1DBE17E11F6ECE214A969FCF8 /* Pods-ReachabilityManager_Tests-umbrella.h */,
+				5999CA300172EE0CA9DDB5CEA1C25F0B /* Pods-ReachabilityManager_Tests.debug.xcconfig */,
+				8CC2FA9AEC6C0B4C4D07CA70B8C8A919 /* Pods-ReachabilityManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-ReachabilityManager_Tests";
+			path = "Target Support Files/Pods-ReachabilityManager_Tests";
+			sourceTree = "<group>";
+		};
+		5A9C5E2D5111DF0E5A9323280E68FACC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B9FE01BA9AA63C46D82BE948337CA00 /* ReachabilityManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6B9FE01BA9AA63C46D82BE948337CA00 /* ReachabilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				AB25E0123B8E7C3890A0CE8EF18D80E1 /* Pod */,
+				CF29B898109D3BFD64608FA1A2DBE774 /* Support Files */,
+				DE9A5446244FB1AB00520E79 /* ReachabilityManager.swift */,
+			);
+			name = ReachabilityManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AB25E0123B8E7C3890A0CE8EF18D80E1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8F61638D90C1E6C240FA4E8A93EF6 /* LICENSE */,
+				9BE20D0DA2935A891F28C6566930C5B5 /* ReachabilityManager.podspec */,
+				86B543AA975D172055E629C821EF3E98 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B8D530B36669B209ADB5D96C19E69B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D02727A8007E68BE76340940A091C54 /* Pods_ReachabilityManager_Example.framework */,
+				8A9CB3E72576CC0352CF3A19D8E7C8D5 /* Pods_ReachabilityManager_Tests.framework */,
+				7BC68E666476C0DD7AF350F70F49FA2B /* ReachabilityManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5A9C5E2D5111DF0E5A9323280E68FACC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B8D530B36669B209ADB5D96C19E69B26 /* Products */,
+				F02D20868674D6F1BBB883D4C30D57BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF29B898109D3BFD64608FA1A2DBE774 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E597CF54343F3107E920EF271F1C73BE /* ReachabilityManager.modulemap */,
+				5E60A1EFDF88A364792EB05C610FAAC8 /* ReachabilityManager-dummy.m */,
+				44612FF3374A99D93AB1FCD2615CBB3D /* ReachabilityManager-Info.plist */,
+				745B9B056FEF0368E11153842A8FCE16 /* ReachabilityManager-prefix.pch */,
+				2AC002A973813FE158A4E221DE0892C8 /* ReachabilityManager-umbrella.h */,
+				4E644868417FC5220DBA89B51D06175F /* ReachabilityManager.debug.xcconfig */,
+				DF400EF88B0A1A2E5E042719ED231DEA /* ReachabilityManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ReachabilityManager";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D728257804210D949C1CCCB1DA1CCE8F /* Pods-ReachabilityManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D15938F604DAEE7D354C18A34F7DC /* Pods-ReachabilityManager_Example.modulemap */,
+				F988DC71908E781ADF02C610CDA572B8 /* Pods-ReachabilityManager_Example-acknowledgements.markdown */,
+				DF0FFD1356FD45413BF5CAA1CB58E2F3 /* Pods-ReachabilityManager_Example-acknowledgements.plist */,
+				6EB4FF280E7A4C7622DB7523F3E56F7B /* Pods-ReachabilityManager_Example-dummy.m */,
+				D22A7743D8D69164B6168A65C9654B02 /* Pods-ReachabilityManager_Example-frameworks.sh */,
+				DFEE0CBA40E4975C8E293D980E02E38B /* Pods-ReachabilityManager_Example-Info.plist */,
+				B5699F372A14F72875E479E89B7AB70E /* Pods-ReachabilityManager_Example-umbrella.h */,
+				D239170F6FA8C0973B609593A84EE15C /* Pods-ReachabilityManager_Example.debug.xcconfig */,
+				3CCC5A8F2F87F0458104FE53F77D6D06 /* Pods-ReachabilityManager_Example.release.xcconfig */,
+			);
+			name = "Pods-ReachabilityManager_Example";
+			path = "Target Support Files/Pods-ReachabilityManager_Example";
+			sourceTree = "<group>";
+		};
+		F02D20868674D6F1BBB883D4C30D57BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D728257804210D949C1CCCB1DA1CCE8F /* Pods-ReachabilityManager_Example */,
+				0F9A286097034B2755815A5574FA6F1D /* Pods-ReachabilityManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		613F72F137386FB7410FAD6E4E9C511A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01AD5E4FDB2637E12341FFAE507D504 /* ReachabilityManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7723D01CBD41721B9DB8DE52947FAF75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4711015B1E9397BB74AF1B175EE653 /* Pods-ReachabilityManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B22F54A6B64F8E37A2BAE72C5F30282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C6FC248B419DB50335CBA49CEE00D4 /* Pods-ReachabilityManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BA110425BDFD54C80FD0C311ED94E43 /* ReachabilityManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8080CF53402B70635AE563AA48AF4FDA /* Build configuration list for PBXNativeTarget "ReachabilityManager" */;
+			buildPhases = (
+				613F72F137386FB7410FAD6E4E9C511A /* Headers */,
+				FC8636748C50FB7C46497658AE5C090E /* Sources */,
+				5162961F64C0B0CE8C66232969870FCE /* Frameworks */,
+				C9EEC4D999C96CD4C30E29ABA411EDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilityManager;
+			productName = ReachabilityManager;
+			productReference = 7BC68E666476C0DD7AF350F70F49FA2B /* ReachabilityManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B831F57F7DCB540A39D06E205623C6E6 /* Pods-ReachabilityManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58116FB8598991B07AC36592749D73DF /* Build configuration list for PBXNativeTarget "Pods-ReachabilityManager_Example" */;
+			buildPhases = (
+				9B22F54A6B64F8E37A2BAE72C5F30282 /* Headers */,
+				ADD9875FAB29FDE339865797048384A6 /* Sources */,
+				95EEF3216B0932152FB6B7BA459532E9 /* Frameworks */,
+				5BDE2B1265E65438F0D36F016CC6F09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F5891463D015F1323878C7C554BE597 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReachabilityManager_Example";
+			productName = "Pods-ReachabilityManager_Example";
+			productReference = 0D02727A8007E68BE76340940A091C54 /* Pods_ReachabilityManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFA1740D35F3B7E2FFAF2023A3FE2D2A /* Pods-ReachabilityManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405156A9EAC4CF5103C99129FEE001BE /* Build configuration list for PBXNativeTarget "Pods-ReachabilityManager_Tests" */;
+			buildPhases = (
+				7723D01CBD41721B9DB8DE52947FAF75 /* Headers */,
+				DABCBCB02D6965F1D9E8BB049C4732DA /* Sources */,
+				32A86A103C2805D40761AF4BD6C5C04E /* Frameworks */,
+				BA0F62A8D77EF7E943A61782D826742F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F79379ADD8C362E27F4552B2AF84609 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReachabilityManager_Tests";
+			productName = "Pods-ReachabilityManager_Tests";
+			productReference = 8A9CB3E72576CC0352CF3A19D8E7C8D5 /* Pods_ReachabilityManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B8D530B36669B209ADB5D96C19E69B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B831F57F7DCB540A39D06E205623C6E6 /* Pods-ReachabilityManager_Example */,
+				BFA1740D35F3B7E2FFAF2023A3FE2D2A /* Pods-ReachabilityManager_Tests */,
+				5BA110425BDFD54C80FD0C311ED94E43 /* ReachabilityManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BDE2B1265E65438F0D36F016CC6F09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0F62A8D77EF7E943A61782D826742F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EEC4D999C96CD4C30E29ABA411EDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD9875FAB29FDE339865797048384A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E97096BD5D466953EEB702FEC07A9E /* Pods-ReachabilityManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABCBCB02D6965F1D9E8BB049C4732DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DC2D95975B28754E5CA30BF991BF12 /* Pods-ReachabilityManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8636748C50FB7C46497658AE5C090E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE3BD9EA21A336FFDCF64B828F36AD5 /* ReachabilityManager-dummy.m in Sources */,
+				DE9A5447244FB1AB00520E79 /* ReachabilityManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F5891463D015F1323878C7C554BE597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilityManager;
+			target = 5BA110425BDFD54C80FD0C311ED94E43 /* ReachabilityManager */;
+			targetProxy = 875C63DEBB2BD01645B8D0FDA0C4C093 /* PBXContainerItemProxy */;
+		};
+		5F79379ADD8C362E27F4552B2AF84609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ReachabilityManager_Example";
+			target = B831F57F7DCB540A39D06E205623C6E6 /* Pods-ReachabilityManager_Example */;
+			targetProxy = 79FADC4E274A32FB7B7F502C95D0E419 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		422691E8030EE33C95E2577A0AB01B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCC5A8F2F87F0458104FE53F77D6D06 /* Pods-ReachabilityManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReachabilityManager_Example/Pods-ReachabilityManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReachabilityManager_Example/Pods-ReachabilityManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80369F061DE8605D57D0922EB0EFF7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF400EF88B0A1A2E5E042719ED231DEA /* ReachabilityManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilityManager/ReachabilityManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilityManager/ReachabilityManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilityManager/ReachabilityManager.modulemap";
+				PRODUCT_MODULE_NAME = ReachabilityManager;
+				PRODUCT_NAME = ReachabilityManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80B3177628C61F58B01EE912CCE74E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC2FA9AEC6C0B4C4D07CA70B8C8A919 /* Pods-ReachabilityManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReachabilityManager_Tests/Pods-ReachabilityManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReachabilityManager_Tests/Pods-ReachabilityManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91BA6BC835F8523FE6305C9B19CA9BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D239170F6FA8C0973B609593A84EE15C /* Pods-ReachabilityManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReachabilityManager_Example/Pods-ReachabilityManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReachabilityManager_Example/Pods-ReachabilityManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C4F91D654CF6721A9B9556274E1A3976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5999CA300172EE0CA9DDB5CEA1C25F0B /* Pods-ReachabilityManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReachabilityManager_Tests/Pods-ReachabilityManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReachabilityManager_Tests/Pods-ReachabilityManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E45DFB51495BE8080D0176D78E3BB692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E644868417FC5220DBA89B51D06175F /* ReachabilityManager.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilityManager/ReachabilityManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilityManager/ReachabilityManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilityManager/ReachabilityManager.modulemap";
+				PRODUCT_MODULE_NAME = ReachabilityManager;
+				PRODUCT_NAME = ReachabilityManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		405156A9EAC4CF5103C99129FEE001BE /* Build configuration list for PBXNativeTarget "Pods-ReachabilityManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F91D654CF6721A9B9556274E1A3976 /* Debug */,
+				80B3177628C61F58B01EE912CCE74E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58116FB8598991B07AC36592749D73DF /* Build configuration list for PBXNativeTarget "Pods-ReachabilityManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BA6BC835F8523FE6305C9B19CA9BD2 /* Debug */,
+				422691E8030EE33C95E2577A0AB01B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8080CF53402B70635AE563AA48AF4FDA /* Build configuration list for PBXNativeTarget "ReachabilityManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45DFB51495BE8080D0176D78E3BB692 /* Debug */,
+				80369F061DE8605D57D0922EB0EFF7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

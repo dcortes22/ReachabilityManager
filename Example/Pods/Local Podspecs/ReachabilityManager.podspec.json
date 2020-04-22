@@ -1,0 +1,22 @@
+{
+  "name": "ReachabilityManager",
+  "version": "0.1.0",
+  "summary": "A short description of ReachabilityManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dcortes22/ReachabilityManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dcortes22": "dcortes22@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dcortes22/ReachabilityManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ReachabilityManager/Classes/**/*"
+}

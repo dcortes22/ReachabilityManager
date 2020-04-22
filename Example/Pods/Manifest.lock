@@ -1,0 +1,16 @@
+PODS:
+  - ReachabilityManager (0.1.0)
+
+DEPENDENCIES:
+  - ReachabilityManager (from `../`)
+
+EXTERNAL SOURCES:
+  ReachabilityManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReachabilityManager: 2ebc6ac2c297a2b6505fe76de377e8a7a18fe4fd
+
+PODFILE CHECKSUM: 67202c0ff685a7185e00002a35e6e05c0636d834
+
+COCOAPODS: 1.9.1
