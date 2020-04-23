@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/ReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/ReachabilityManager)
 [![License](https://img.shields.io/cocoapods/l/ReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/ReachabilityManager)
 [![Platform](https://img.shields.io/cocoapods/p/ReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/ReachabilityManager)
+[![codecov.io](https://codecov.io/gh/dcortes22/ReachabilityManager/branch/master/graphs/badge.svg)](https://codecov.io/gh/dcortes22/ReachabilityManager/branch/master/branch/master)
 
 ## Requirements
 
