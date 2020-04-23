@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/DCReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/DCReachabilityManager)
 [![License](https://img.shields.io/cocoapods/l/DCReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/DCReachabilityManager)
 [![Platform](https://img.shields.io/cocoapods/p/DCReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/DCReachabilityManager)
-[![codecov.io](https://codecov.io/gh/dcortes22/ReachabilityManager/branch/master/graphs/badge.svg)](https://codecov.io/gh/dcortes22/ReachabilityManager/branch/master/branch/master)
+[![codecov.io](https://codecov.io/gh/dcortes22/ReachabilityManager/branch/master/graphs/badge.svg)](https://codecov.io/gh/dcortes22/ReachabilityManager/branch/master)
 [![Twitter Follow](https://img.shields.io/twitter/follow/dcortes22.svg?style=social)](https://twitter.com/dcortes22) 
 
 ## Requirements
