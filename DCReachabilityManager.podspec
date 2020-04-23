@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCReachabilityManager'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Replacement Reachability.swift using NWPathMonitor'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
    s.social_media_url = 'https://twitter.com/dcortes22'
 
   s.ios.deployment_target = '12.0'
+  s.tvos.deployment_target  = "12.0"
   s.swift_version = '5.2'
 
   s.source_files = 'ReachabilityManager/**/*'
