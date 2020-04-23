@@ -1,5 +1,6 @@
 import XCTest
 import ReachabilityManager
+import Network
 
 class ReachabilityManagerTests: XCTestCase {
     
@@ -68,6 +69,41 @@ class ReachabilityManagerTests: XCTestCase {
         }
         reachabilityManager.currentConnectionStatus = .online(adapter: .wifi)
         wait(for: [expectation], timeout: 5.0)
+    }
+    
+    func test_stop_manager() throws {
+        reachabilityManager.stopManager()
+        XCTAssertEqual(reachabilityManager.managerStarted, false, "Manager should be false")
+    }
+    
+    func test_start_manager() throws {
+        reachabilityManager.stopManager()
+        reachabilityManager.startManager()
+        XCTAssertEqual(reachabilityManager.managerStarted, true, "Manager should be true")
+    }
+    
+    func test_get_interface_type() throws {
+        reachabilityManager.customAdapter = .cellular
+        XCTAssertEqual(reachabilityManager.customAdapter.getInterfaceType(), NWInterface.InterfaceType.cellular, "NWInterface should be cellular")
+    }
+    
+    func test_get_correct_adapter_description() throws {
+        reachabilityManager.currentAdapterMode = .cellular
+        XCTAssertEqual(reachabilityManager.currentAdapterMode.description, "Cellular", "Description should be Cellular")
+    }
+    
+    func test_get_correct_adapter_after_change_adapter_description() throws {
+        reachabilityManager.currentAdapterMode = .cellular
+        let description1 = reachabilityManager.currentAdapterMode
+        reachabilityManager.currentAdapterMode = .wifi
+        let description2 = reachabilityManager.currentAdapterMode
+        XCTAssertNotEqual(description1, description2, "should be equal")
+    }
+    
+    func test_equality_on_connection() throws {
+        let connection1 = ReachabilityManager.Connection.online(adapter: .cellular)
+        let connection2 = ReachabilityManager.Connection.online(adapter: .cellular)
+        XCTAssert(connection1 == connection2, "Should be equal")
     }
     
 }

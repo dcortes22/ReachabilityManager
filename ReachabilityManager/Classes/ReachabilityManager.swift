@@ -26,6 +26,8 @@ open class ReachabilityManager {
     public var onConnectionReachable: ConnectionReachable?
     public var onConnectionUnReachable: ConnectionUnReachable?
     
+    public var managerStarted = false
+    
     public enum Adapter: CustomStringConvertible, Equatable {
         case all, wifi, cellular, wiredEthernet, loopback, other
         public var description: String {
@@ -45,7 +47,7 @@ open class ReachabilityManager {
             }
         }
         
-        func getInterfaceType() -> NWInterface.InterfaceType {
+        public func getInterfaceType() -> NWInterface.InterfaceType {
             switch self {
             case .cellular:
                 return NWInterface.InterfaceType.cellular
@@ -101,11 +103,13 @@ open class ReachabilityManager {
     public func stopManager() {
         monitor?.cancel()
         monitor = nil
+        managerStarted = false
     }
     
     fileprivate func initMonitor(adapter:Adapter) {
         monitor = adapter == .all ? NWPathMonitor() : NWPathMonitor(requiredInterfaceType: adapter.getInterfaceType())
         currentAdapterMode = adapter
+        managerStarted = true
         monitor?.pathUpdateHandler = { path in
             if path.status == .satisfied {
                 // We have connection
