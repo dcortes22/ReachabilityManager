@@ -9,7 +9,9 @@
 
 ## Requirements
 
-IOS 12 or higher must be used
+- iOS 12 or higher
+- tvOS 12 or higher
+- macOS 10.14 or higher
 
 
 ## Installation
