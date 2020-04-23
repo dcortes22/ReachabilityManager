@@ -1,9 +1,9 @@
 # ReachabilityManager
 
 [![CI Status](https://img.shields.io/travis/dcortes22/ReachabilityManager.svg?style=flat)](https://travis-ci.org/dcortes22/ReachabilityManager)
-[![Version](https://img.shields.io/cocoapods/v/ReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/ReachabilityManager)
-[![License](https://img.shields.io/cocoapods/l/ReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/ReachabilityManager)
-[![Platform](https://img.shields.io/cocoapods/p/ReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/ReachabilityManager)
+[![Version](https://img.shields.io/cocoapods/v/DCReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/DCReachabilityManager)
+[![License](https://img.shields.io/cocoapods/l/DCReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/DCReachabilityManager)
+[![Platform](https://img.shields.io/cocoapods/p/DCReachabilityManager.svg?style=flat)](https://cocoapods.org/pods/DCReachabilityManager)
 [![codecov.io](https://codecov.io/gh/dcortes22/ReachabilityManager/branch/master/graphs/badge.svg)](https://codecov.io/gh/dcortes22/ReachabilityManager/branch/master/branch/master)
 [![Twitter Follow](https://img.shields.io/twitter/follow/dcortes22.svg?style=social)](https://twitter.com/dcortes22) 
 
